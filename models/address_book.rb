@@ -69,4 +69,7 @@ class AddressBook
     return nil
   end
 
+  def nuke
+    entries.clear
+  end
 end
